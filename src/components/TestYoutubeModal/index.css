@@ -1,0 +1,18 @@
+.app-container {
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.button-group {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+iframe {
+    display: block;
+}

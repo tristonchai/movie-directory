@@ -1,0 +1,67 @@
+/* src/App.css */
+.App {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .movie-list {
+    margin-top: 20px;
+  }
+  
+  .filters {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .filters input {
+    padding: 8px;
+    width: 200px;
+  }
+  
+  .filters select {
+    padding: 8px;
+  }
+  
+  .movie-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .movie-card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .movie-card img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .pagination {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+  }
+  
+  .pagination button {
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .pagination button.active {
+    background-color: #007bff;
+    color: white;
+  }
+
+  input,
+  select {
+    border: 1px solid #ddd;
+    color: #fff;
+  }
+
+ 
