@@ -22,7 +22,7 @@ To run this project locally, you’ll need accounts and API keys from the follow
 1. **Appwrite**: For authentication and movie data storage.
     - Create an account at https://cloud.appwrite.io/console/.
     - Set up a project to get your Project ID.
-2. **The Movie Database (TMDB)**: For movie data. - Sign up at [https://www.themoviedb.org/](https://www.themoviedb.org/). - Generate an API key (see [TMDB API Docs]{https://developer.themoviedb.org/reference/intro/getting-started} for details).
+2. **The Movie Database (TMDB)**: For movie data. - Sign up at [https://www.themoviedb.org/](https://www.themoviedb.org/). - Generate an API key (see [TMDB API Docs](https://developer.themoviedb.org/reference/intro/getting-started) for details).
    You’ll also need:
 
 -   Node.js (v16 or later) and npm installed.
